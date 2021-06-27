@@ -2,9 +2,7 @@
 
 ******************************
 FOR BOTH SWITCHES
-******************************
 1. Basic switch configuration
-
 ******************************
 2. VLAN creation
 3. Assign ports to VLANs
