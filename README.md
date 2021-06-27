@@ -27,23 +27,23 @@ ON SWITCH 1
 05. configure the trunk on SW01 nad SW02
 *****************************************
 ON SWITCH 2
-*
+#
 06. create VLAN 20
 07. assign 3 ports to VLAN 20
 *****************************************
 ON SWITCH 3
-*
+#
 08. create VLAN 10
 09. assign 3 ports to VLAN 10
 
 *****************************************
 ON SWITCH 2
-*
+#
 10. create VLAN 10
 
 *****************************************
 ALL SWITCHES
-*
+#
 11. save all configurations
 
 *****************************************
