@@ -2,11 +2,11 @@
 
 *****************************************
 ON ALL SWITCHES
-*
+#
 01. Basic Switch Management
 *****************************************
 ON END DEVICES
-*
+#
 02. Assign IP addresses to end devices
 
 PC0 - 192.168.10.2/24
@@ -20,7 +20,7 @@ PC4 - 192.168.10.6/24
 
 *****************************************
 ON SWITCH 1
-*
+#
 03. create VLAN 10 and VLAN 20
 04. assign 2 ports to VLAN 10 and 1 port to VLAN 20
 *****************************************
