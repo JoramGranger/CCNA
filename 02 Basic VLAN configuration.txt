@@ -1,0 +1,41 @@
+Basic VLAN configuration
+
+******************************
+FOR BOTH SWITCHES
+******************************
+01. Basic switch configuration
+
+
+02. VLAN creation
+vlan 20
+name Department01
+exit
+-------------------------
+vlan 30
+name Department02
+exit
+
+03. Assign ports to VLANs
+interface fastEthernet 0/1
+switchport mode access
+switchport access vlan 20
+--------------------------
+interface fastEthernet 0/11
+switchport mode access
+switchport access vlan 30
+
+04. management IP addresses
+interface vlan 20
+ip address 192.168.2.2 255.255.255.0
+no shutdown
+
+interface vlan 30
+ip address 192.168.3.2 255.255.255.0
+no shutdown
+
+05. configure trunks
+interface fastEthernet 0/24
+switchport mode trunk 
+
+06. save configuration
+copy running-config startup-config
