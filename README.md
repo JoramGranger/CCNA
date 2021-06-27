@@ -2,7 +2,8 @@
 
 *****************************************
 ON ALL SWITCHES
-1 .Basic Switch Management
+*
+01. Basic Switch Management
 *****************************************
 ON END DEVICES
 02. Assign IP addresses to end devices
